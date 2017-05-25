@@ -1,1 +1,44 @@
-index.html
+body {
+  margin: 0 auto;
+}
+
+header {  
+    background-image: url("https://blackrockdigital.github.io/startbootstrap-clean-blog/img/post-bg.jpg");
+  background-position: center;
+  width: 100%;
+}
+
+.navm {
+  list-style-type: none;
+  margin: 1rem 2rem ;
+  padding: ;
+  float: right;
+  
+}
+
+.navm li {
+  float: left;
+  padding: 1rem;
+}
+
+.navm a {
+  color: white;
+}
+
+.topleft {
+  height: 400px;
+  width: 33%;
+  display: inline-block;
+  margin: 2rem;
+}
+
+.topleft p {
+  color: white;
+}
+
+.navcontainer {
+  float: right;
+  width: 50%;
+ 
+}
+
