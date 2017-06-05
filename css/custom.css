@@ -11,7 +11,7 @@ header {
 
 .navm {
   list-style-type: none;
-  margin: 1rem 2rem ;
+  margin: 1rem 0;
   padding: ;
   float: right;
   
@@ -43,7 +43,7 @@ header {
 .navcontainer {
   float: right;
   width: 50%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 800;
 }
 
@@ -127,9 +127,22 @@ figure {
 }
 
 figcaption {
-  //text-align: center;
+/* text-align: center; */
 }
 .copyright {
   padding: 2rem;
   margin-left: 2rem;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 1024px) {
+    
+    .navcontainer {
+  
+  font-size: 1.5rem;
+  
+}
+ 
 }
